@@ -9,7 +9,7 @@ function About() {
   return (
     <>
       <div>
-        <div className='relative px-6 text-center opacity-90 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-yellow-400 transition-all duration-500 ease-in-out text-outline'>
+        <div className='relative px-6 text-center opacity-90 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#feb901] transition-all duration-500 ease-in-out text-outline'>
           About Me
         </div>
 
