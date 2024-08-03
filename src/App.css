@@ -1,0 +1,15 @@
+/* index.css or App.css */
+body {
+      background-color: #0c0c0c; /* Replace with your desired color code */
+    }
+    .menuBurger {
+      width: 3vmax;
+      height: 3.5vmax;}
+
+      .logo {
+        width: 100vmax;
+        height: 3.5vmax; /* Use auto to maintain aspect ratio */
+      }
+      .menuBurger {
+        width: 7vmax;
+        height: 3.6vmax;}
