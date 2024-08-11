@@ -11,6 +11,9 @@ import twitter from "../../assets/ContactWithUs/twitter.e61a1396.svg"
 import avatar from "../../assets/ContactWithUs/avatar-macbook.3a5e5bd3.svg"
 
 function ContecWithus() {
+
+
+   
   return (
     <>
       <div className="flex justify-center text-center my-10">
@@ -54,18 +57,26 @@ function ContecWithus() {
 
         {/* Second row of social icons */}
         <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-8">
-          <div className="bg-white flex items-center rounded-full p-3 md:p-4 shadow-lg">
+         <Link to='https://t.me/@EngAnupamGupta
+'>
+         <div className="bg-white flex items-center rounded-full p-3 md:p-4 shadow-lg">
             <img src={telegram} alt="Telegram" className="w-10 h-10 md:w-12 md:h-12" />
             <div className="text-[#0098bd] text-xl md:text-2xl m-2 font-bold font-serif">
               Telegram
             </div>
           </div>
+         
+         </Link>
+
+         <Link to="https://x.com/G2anupamGupta">
+         
           <div className="bg-white flex items-center rounded-full p-3 md:p-4 shadow-lg">
             <img src={twitter} alt="Twitter" className="w-10 h-10 md:w-12 md:h-12" />
             <div className="text-[#111111] text-xl md:text-2xl m-2 font-bold font-serif">
               Twitter
             </div>
           </div>
+          </Link>
           <div className="bg-white flex items-center rounded-full p-3 md:p-4 shadow-lg">
             <img src={skype} alt="Skype" className="w-10 h-10 md:w-12 md:h-12" />
             <div className="text-[#00bdd7] text-xl md:text-2xl m-2 font-bold font-serif">
@@ -75,12 +86,14 @@ function ContecWithus() {
         </div>
 
         {/* Email contact */}
+        <a href="mailto:c2gupt@gmail.com">
         <div className="bg-white flex items-center rounded-full p-3 md:p-4 shadow-lg mb-8">
           <img src={gmail} alt="Gmail" className="w-10 h-10 md:w-12 md:h-12" />
           <div className="text-[#c5221f] text-xl md:text-2xl m-2 font-bold font-sans">
             c2gupt@gmail.com
           </div>
         </div>
+        </a>
 
         {/* Avatar */}
         <div className="mb-20">

@@ -31,10 +31,10 @@ function DiscussProject() {
         </div>
 
         <div className="mt-6 flex flex-col md:flex-row gap-4 md:gap-6 lg:gap-8">
-          <button className="bg-[#feb901] text-yellow-700 text-lg md:text-xl font-sans font-medium flex items-center justify-center gap-2 p-3 md:p-4 lg:p-6 rounded-3xl border border-yellow-700 hover:bg-[#feb901] hover:text-black">
+          <button className="bg-[#feb901] bg-opacity-5 text-yellow-700 hover:bg-[#feb901] text-lg md:text-xl font-sans font-medium flex items-center justify-center gap-2 p-3 md:p-4 lg:p-2 rounded-3xl border border-yellow-700 hover:bg-[#feb901] hover:text-black">
             <IoArrowDown size={24} /> Resume
           </button>
-          <button className="bg-[#feb901] text-black text-lg md:text-xl lg:text-2xl font-sans font-medium flex items-center justify-center gap-2 p-3 md:p-4 lg:p-6 rounded-3xl border border-yellow-700 hover:bg-opacity-5 hover:text-[#feb901]">
+          <button className="bg-[#feb901] text-black text-lg md:text-xl lg:text-2xl font-sans font-medium flex items-center justify-center gap-2 p-3 md:p-4 lg:p-2 rounded-3xl border border-yellow-700 hover:bg-opacity-5 hover:text-[#feb901]">
             <LuMessagesSquare size={24} />
             Discuss Project
           </button>
